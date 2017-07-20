@@ -98,6 +98,6 @@ The application will be available at the following resource:
 
 http://localhost:7001/ci-example-app/myservlet
 
-[ci-manual]: https://docs.oracle.com/middleware/1212/core/MAVEN/toc.htm
-[real-application-chapter]: https://docs.oracle.com/middleware/1212/core/MAVEN/real_app.htm#MAVEN8917
+[ci-manual]: https://docs.oracle.com/middleware/1221/core/MAVEN/toc.htm
+[real-application-chapter]: https://docs.oracle.com/middleware/1221/core/MAVEN/real_app.htm#MAVEN8917
 [oracle-maven-repo-manual]: http://docs.oracle.com/middleware/1221/core/MAVEN/config_maven_repo.htm#CACJADFE

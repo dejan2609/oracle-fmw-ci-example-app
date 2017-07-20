@@ -44,7 +44,7 @@ be manually registered into the `pof-config.xml` file:
 
 - Minimum of Java 1.8
 - Maven 3.5.0 or greater
-- Oracle WebLogic Server and Coherence 12.2.1.2
+- Oracle WebLogic Server and Coherence 12.2.1.2.0
 
 ### Getting started at the Command Line
 
@@ -69,7 +69,7 @@ To build the application do:
 
 ### Deploying the application
 
-Oracle WebLogic Server and Oracle Coherence 12.2.1.2 have to be installed on your environment. A domain with enabled 
+Oracle WebLogic Server and Oracle Coherence 12.2.1.2.0 have to be installed on your environment. A domain with enabled 
 _WebLogic Coherence Cluster Extension_ has to be created there.
 
 To deploy the application to a running application server do:

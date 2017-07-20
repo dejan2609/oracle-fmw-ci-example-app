@@ -59,6 +59,9 @@ To install the plugin do:
 # cd ..
 ```
 
+In order to use any provided by Oracle Maven plugins and dependencies, _Oracle Maven Repository_ has to be configured
+as it described in the [official documentation][oracle-maven-repo-manual].
+
 ### Building the application
 
 To build the application do:
@@ -97,3 +100,4 @@ http://localhost:7001/ci-example-app/myservlet
 
 [ci-manual]: https://docs.oracle.com/middleware/1212/core/MAVEN/toc.htm
 [real-application-chapter]: https://docs.oracle.com/middleware/1212/core/MAVEN/real_app.htm#MAVEN8917
+[oracle-maven-repo-manual]: http://docs.oracle.com/middleware/1221/core/MAVEN/config_maven_repo.htm#CACJADFE

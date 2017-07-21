@@ -20,7 +20,7 @@ The `gar-to-classpath-plugin` maven plugin provides the following component defi
       <role>org.apache.maven.artifact.handler.ArtifactHandler</role>
       <role-hint>gar</role-hint>
       <implementation>org.apache.maven.artifact.handler.DefaultArtifactHandler</implementation>
-	  <configuration>
+      <configuration>
         <extension>gar</extension>
         <type>gar</type>
         <language>java</language>
@@ -29,7 +29,7 @@ The `gar-to-classpath-plugin` maven plugin provides the following component defi
     </component>
 ```
 
-3. Due to a bug in the `gar-maven-plugin`, a processed the `pof-config.xml` file won't be included into the result `EAR` archive. 
+3. Due to a bug in the `gar-maven-plugin`, the processed `pof-config.xml` file won't be included into the result `EAR` archive. 
 The postprocessor has to be disabled (`<generatePof>false</generatePof>`), and every needed POJO/POF class definition should 
 be manually registered into the `pof-config.xml` file:
 
